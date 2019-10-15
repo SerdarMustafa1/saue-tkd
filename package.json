@@ -1,0 +1,24 @@
+{
+  "name": "saue-tkd",
+  "version": "1.0.0",
+  "description": "Website-for-Saue-Tkd-club",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel dist/index.js",
+    "build": "parcel build dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerdarMustafa1/Quick_Feet_KickBoxing.git"
+  },
+  "author": "Serdar_Mustafa",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
