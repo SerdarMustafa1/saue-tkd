@@ -10413,6 +10413,14 @@ a.text-dark:focus {
   }
 }
 
+#textBlack {
+  color: textBlack !important;
+}
+
+#Timetable {
+  color: #fefefe;
+}
+
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: #151111;
