@@ -69,6 +69,10 @@ section {
   display: block;
 }
 
+#counter_align {
+  margin-top: 110px;
+}
+
 body {
   margin: 0;
   font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -12193,7 +12197,7 @@ textarea.form-control {
 .ftco-counter .text strong.number {
   font-weight: 500;
   font-size: 50px;
-  color: #0072CE;
+  color: darkgray;
 }
 
 .ftco-counter .text span {
