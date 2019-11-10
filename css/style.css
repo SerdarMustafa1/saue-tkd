@@ -88,6 +88,18 @@ body {
   outline: 0 !important;
 }
 
+.affiliates {
+  background-size: cover;
+}
+
+.affiliatesContainer {
+  width: 100%;
+}
+
+.affiliatesImage {
+  width: 100%;
+}
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
