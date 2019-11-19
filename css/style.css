@@ -10784,6 +10784,12 @@ h5,
     letter-spacing: 8px;
 }
 
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
 .owl-carousel {
     position: relative;
     -ms-touch-action: auto;
