@@ -86,7 +86,7 @@ body {
     background-color: #fff;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
-    -webkit-overflow-scrolling: touch;
+    height: 100%;
 }
 
 [tabindex="-1"]:focus {
