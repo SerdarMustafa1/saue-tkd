@@ -89,17 +89,8 @@ body {
     outline: 0 !important;
 }
 
-.affiliates {
-    background-size: cover;
-}
+.affiliates {}
 
-.affiliatesContainer {
-    width: 100%;
-}
-
-.affiliatesImage {
-    width: 100%;
-}
 
 /* 
 
