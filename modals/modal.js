@@ -9,7 +9,7 @@ class Modal extends HTMLElement {
             /* The Modal (background) */
             .modal {
                 display: none; 
-                position: fixed; 
+                
                 z-index: 100; 
                 padding-top: 100px; 
                 left: 0;
