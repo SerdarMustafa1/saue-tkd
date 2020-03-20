@@ -71,7 +71,7 @@ class Modal extends HTMLElement {
                 </div>
                 <div class="modal-body">
                     <slot><slot>
-  
+  <button style="color: blue;"> Close</button> 
                 </div>
             </div>
         </div>
