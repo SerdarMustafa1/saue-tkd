@@ -66,7 +66,7 @@ class Modal extends HTMLElement {
         <div class="modal">
             <div class="modal-content">
                 <div class="modal-header">
-                    <span class="close">&times;</span>
+                    <span class="close"><button data-dismiss="modal">&times; </button></span>
                     <slot name="header"><h1>Great news!</h1></slot>
                 </div>
                 <div class="modal-body">
@@ -90,6 +90,7 @@ class Modal extends HTMLElement {
       .addEventListener("click", this._hideModal.bind(this));
   }
   disconnectedCallback() {
+    // window.addEventListener("load", this._hideModal.bind(this));
     this.shadowRoot
       .querySelector("button")
       .removeEventListener("click", this._showModal);
