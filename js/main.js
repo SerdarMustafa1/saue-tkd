@@ -306,3 +306,7 @@ AOS.init({
 })(jQuery);
 
 $(".TimeTableIframe").css("height", $(window).height() + "px");
+
+$(window).on("load", function() {
+  $("#myModal").modal("show");
+});
